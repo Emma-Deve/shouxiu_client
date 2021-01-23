@@ -1,0 +1,49 @@
+.header{
+    color: rgb(116, 113, 113);
+    height: 80px;
+    background-color: white;
+    .header-top{
+        height: 40px;
+        line-height: 40px;
+        text-align: right;
+        padding-right: 30px;
+        font-size: 15px;
+        border-bottom: 1px solid rgb(5, 134, 151);
+        .header-top-user{
+            margin:10px;
+            // color:#036857
+        }
+    }
+    .header-bottom{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        .header-bottom-left{
+            position: relative;
+            width: 25%;
+            line-height: 40px;
+            font-size: 20px;
+            text-align: center;
+            .triangle{
+                position: absolute;
+                right: 50%;
+                transform: translateX(50%);
+                height: 0px;
+                width: 0px;
+                border:15px solid ;
+                border-color: white transparent transparent  transparent;
+            }
+        }
+        .header-bottom-right{
+            width: 75%;
+            text-align: right;
+            margin-right: 30px;
+            font-size: 15px;
+            img{
+                margin: 15px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
